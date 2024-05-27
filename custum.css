@@ -1,0 +1,59 @@
+.logo-container {
+    position: absolute;
+    bottom: 20px; /* Adjust as necessary */
+    left: 20px; /* Adjust as necessary */
+    z-index: 1000; /* Ensure it appears above other content */
+    
+}
+
+.logo-container img {
+    height: 100px; /* Adjust as necessary */
+    width: auto;
+    opacity: 0.9; /* Optional: make the logo semi-transparent */
+}
+
+.import {
+    background-color: #6f0000;
+    padding:6px;
+}
+
+.paragraphe {
+    width: 80%;
+    display: flex;
+
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .pricing-column {
+    width: 300px; /* Fixed width for all pricing columns */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .pricing-column h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .method-description {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 16px;
+  }
+  
+
+/*  */
+
